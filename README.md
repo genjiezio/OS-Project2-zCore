@@ -1,5 +1,27 @@
 # OS-Project2-zCore
 
+## Project Background
+
+**Description**：
+
+**ZCore** is the Zircon micro kernel rewritten in Rust language.This project explores the modern system language RUST, OS-level asynchronous mechanism, multi-kernel mechanism, flexible and open instruction set architecture RISC-V, etc. The design and implementation innovation of the operating system in this project, is an attempt of the future operating system.
+
+**Feature**：
+
+- Based on RUST，which take full advantage of Asynchronous mechanism provided by RUST.
+- Support most syscall of Zircpn micor kernel, and some syscall of linux.
+- Can run in User mode in the form of LibOS, or run in bare computer in the form of traditional OS.
+- Can run in X86_64 and RISC_V. 
+
+**Relevant materials**:
+
+- [Instruction of implement OS based on Rust](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
+- [Release news of zCore](https://zhuanlan.zhihu.com/p/137733625)
+- [Diploma Project and Design document](https://github.com/rcore-os/zCore/wiki/documents-of-zCore)
+- [zCore-Tutorial](https://github.com/rcore-os/zCore-Tutorial)
+
+      
+
 
 ## Implementation
 
