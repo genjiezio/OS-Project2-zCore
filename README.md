@@ -19,6 +19,7 @@
 - [Release news of zCore](https://zhuanlan.zhihu.com/p/137733625)
 - [Diploma Project and Design document](https://github.com/rcore-os/zCore/wiki/documents-of-zCore)
 - [zCore-Tutorial](https://github.com/rcore-os/zCore-Tutorial)
+- [rust](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 
       
 
