@@ -21,10 +21,8 @@
 - [zCore-Tutorial](https://github.com/rcore-os/zCore-Tutorial)
 - [rust](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 
-      
 
-
-## Implementation
+## Goal
 
 For basic part:
 1. According the [route](https://github.com/rcore-os/zCore-Tutorial), realized the zCore by step.
@@ -45,12 +43,12 @@ May 25th ：Realized more Linux systemcall
 
 May 30th : Reserved time, also for finnal report
 
-## Meterial
-
-* [route](https://github.com/rcore-os/zCore-Tutorial)
 
 ## Member
 * 11810115 陈启龙
 * 11810420 王照伟
 
 ## Team work
+
+During we still know too much about zCore, so we plan to learn some rust and zCore to getther first.
+After that, we will make a new deatiled team work. 
