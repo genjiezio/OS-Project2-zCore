@@ -1,25 +1,27 @@
-# OS-Project2-zCore
+# Operating System Project 2
 
-## Project Background
+## proj19-process-memory-tracker
 
-**Description**：
+---
 
-**ZCore** is the Zircon micro kernel rewritten in Rust language.This project explores the modern system language RUST, OS-level asynchronous mechanism, multi-kernel mechanism, flexible and open instruction set architecture RISC-V, etc. The design and implementation innovation of the operating system in this project, is an attempt of the future operating system.
+### 项目描述
 
-**Feature**：
+在linux平台上开发一个工具，此工具可以实时显示想要观察的进程的内存使用情况以及可能的内存泄漏问题，具体要求如下：
 
-- Based on RUST，which take full advantage of Asynchronous mechanism provided by RUST.
-- Support most syscall of Zircpn micor kernel, and some syscall of linux.
-- Can run in User mode in the form of LibOS, or run in bare computer in the form of traditional OS.
-- Can run in X86_64 and RISC_V. 
+- 实时统计系统中各进程及其中包含的线程的内存使用情况；
+- 检测某个进程中的内存泄漏问题，包括：内存，文件句柄的泄漏情况，把检测情况实时显示或是输出到指定文件；
 
-**Relevant materials**:
+---
 
-- [Instruction of implement OS based on Rust](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
-- [Release news of zCore](https://zhuanlan.zhihu.com/p/137733625)
-- [Diploma Project and Design document](https://github.com/rcore-os/zCore/wiki/documents-of-zCore)
-- [zCore-Tutorial](https://github.com/rcore-os/zCore-Tutorial)
-- [rust](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
+### 相关资料
+
+- [ccmalloc](http://cs.ecs.baylor.edu/~donahoo/tools/ccmalloc/)－Linux和Solaris下对C和C++程序的简单的使用内存泄漏和malloc调试库。
+- [Dmalloc](http://cs.ecs.baylor.edu/~donahoo/tools/ccmalloc/)－Debug Malloc Library.
+- [Valgrind](http://valgrind.org/)－Debugging and profiling Linux programs, aiming at programs written in C and C++.
+- [查看 Linux 系统中进程和用户的内存使用情况](https://linux.cn/article-11849-1.html)
+- [pidstat - 监控并统计Linux进程的数据（内存，进程等监控）](https://developer.aliyun.com/article/71664)
+
+---
 
 
 ## 目标
