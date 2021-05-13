@@ -22,33 +22,30 @@
 - [rust](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 
 
-## Goal
+## 目标
 
-For basic part:
-1. According the [route](https://github.com/rcore-os/zCore-Tutorial), realized the zCore by step.
-2. Realized more Linux systemcall
+基础目标：
+1. 统计系统进程及其中线程内存使用情况
+2. 实现检测具体进程中内存和文件句柄的分配与释放
+额外目标：
+3. 实时统计系统进程及其中线程内存使用情况
 
-If we still have enouh time:
+## 规划时间
 
-3. According to rCore's  `smoltcp` protocal stack, transtorming it to zCore to impelement the request of Linux web request
-4. Improve the structure of OS to support and improve the kernel level asynchronous scheduling mechanism
+5月16日 : 了解内存分配释放过程并提出初步方案
 
-## Timeline
+5月19日 ： 实现目标一
 
-May 4th : learning the `rust` language
+5月23日 ： 实现检测具体进程内存分配与释放 
 
-May 18th : According the tutorial, impelement the request of zCore
+5月27日 : 实现检测具体进程文件句柄的分配与释放
 
-May 25th ：Realized more Linux systemcall
+5月30日 : 实验总结并汇报
 
-May 30th : Reserved time, also for finnal report
-
-
-## Member
+## 小组成员
 * 11810115 陈启龙
 * 11810420 王照伟
 
-## Team work
+## 分工
 
-During we still know too much about zCore, so we plan to learn some rust and zCore to getther first.
-After that, we will make a new deatiled team work. 
+
